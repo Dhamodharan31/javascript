@@ -1,26 +1,24 @@
-  
-let cricket=[
-    {
-        name:"SACHIN",
-        age:50,
-        experience:15,
-    
-    }
-    ,
-    {
-        name:"MSDHONI",
-        age=45,
-        experience:12,
-    }
-    ,
-    {
-        name:"VIRATKHOLI",
-        age:30,
-        experience:9
-    ,
-    }
-]
+et num1=7
+let num2=3
+sumEl=document.getElementById("sum-el")
 
+function add(){
+    sum=num1+num2
+    sumEl.innerText="SUM="+sum
 
-for(let num=0;num<cricket.length;num++){
-    console.log(cricket[num]);
+}
+function subtract(){
+    sum=num1-num2
+    sumEl.innerText="SUM="+sum
+
+}
+function multiply(){
+    sum=num1*num2
+    sumEl.innerText="SUM="+sum
+
+}
+function divide(){
+    sum=num1/num2
+    sumEl.innerText="SUM="+sum
+
+}
